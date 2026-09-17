@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Данные и результаты обработки
+data/dataset/raw/*
+data/dataset/bad_light/*
+data/dataset/good_light/*
+data/dataset/processed/*
+!data/dataset/**/.gitkeep
+
+# Модели (большие файлы — хранить отдельно)
+ml/models/*.onnx
+ml/models/*.onnx.data
+ml/models/*.task
+ml/models/*.tflite
+
+# Архивы
+*.zip
